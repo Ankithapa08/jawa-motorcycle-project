@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="jawa.css">
+    <title>Document</title>
+    
+</head><script>function myFunction() {
+    var dots = document.getElementById("dots");
+    var moreText = document.getElementById("more");
+    var btnText = document.getElementById("myBtn");
+  
+    if (dots.style.display === "none") {
+      dots.style.display = "inline";
+      btnText.innerHTML = "Read more";
+      moreText.style.display = "none";
+    } else {
+      dots.style.display = "none";
+      btnText.innerHTML = "Read less";
+      moreText.style.display = "inline";
+    }
+  }
+</script>
+<body<header>
+    <nav>
+        <div class="nav-bar">
+            <ul>
+                <li><img src="img/Jawa_logo.jpg" height="50px" width="60px"></li>
+                <li><a href="" target="_self">Home</a></li>
+                <li><a href="">Motorcycles</a></li>
+                <li><a href="">Dealers</a></li>
+                <li><a href="">Test Ride</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Book Online</a></li>
+                <div class="serach_box">
+                <label>
+                    <search>
+                        <form action="./search/">
+                            <label for="JAWA"></label>
+                            <input type="search" id="bike" name="q" placeholder="Search" />
+                            <button type="submit">Search</button>
+                        </form> 
+                    </search>
+                </label></div>
+            </ul>
+        </div></nav></header><main>
+        <div class="image1">
+            <img src="img/1_1694069812.jpg" width="100%">
+        </div>
+        <div class="container">
+   <div class="card">
+    <img src="img/42-title.svg" >
+    <caption>
+        The answer to the ultimate question evolved over time, into a machine that strides right to the edge of notoriety.
+In a new world in search of emotive engineering, we bring forth a fiercer avatar crafted with love from the learnings of yesterday, vibrant in its hues and sure footed in its space. Meet the 42
+    </caption>
+   </div>
+   <div class="card1">
+    <img src="img/perak-title.svg">
+    <caption>
+        The answer to the ultimate question evolved over time, into a machine that strides right to the edge of notoriety.<span id="dots">...</span><span id="more">
+In a new world in search of emotive engineering, we bring forth a fiercer avatar crafted with love from the learnings of yesterday, vibrant in its hues and sure footed in its space.</span>
+<button onclick="myFunction()" id="myBtn">Read more</button>
+    </caption>
+   </div></div>
+   <main class="bg_image" >
+<h2>GEAR UP YOUR RIDE</h2>
+<p>Get one step closer to completing your
+    ride with Jawa accessories</p>
+    <table class="base">
+        <th>
+            THE JAW RIG
+        </th>
+        <th>RIDER ENSEMBLE</th>
+    </table>
+   </main>
+</main><footer>
+    <div class="footer-column">
+        <p><strong>Book a test Ride</strong></Book></p>
+        <p>Dealer locator</p>
+        <p>Finance offers</p>
+        <p>Exchange your bike</p>
+        <p>Contact Us</p>
+        <p>investor relation</p>
+      </div>
+      <div class="footer-column">
+        <h3>Column 2</h3>
+        <p>&copy; Jawa Motorcycle Co., Ltd.</p>
+      </div>
+      <div class="footer-column">
+        <h3></h3>
+        <p>&copy; Jawa Motorcycle Co., Ltd.</p>
+      </div>
+</footer>
+</body>
+</html>
